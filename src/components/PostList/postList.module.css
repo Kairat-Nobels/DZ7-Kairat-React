@@ -1,0 +1,51 @@
+.postList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.postList .List{
+    background: rgb(141, 71, 182);
+    padding: 10px;
+    border-radius: 15px;
+    transition: .5s;
+}
+.postList .List:hover{
+    transform: scale(1.12);
+}
+.postList h2{
+    max-width: 580px;
+    margin: 6px auto;
+    color: #030303;
+}
+.postList p{
+    max-width: 580px;
+    margin: 10px auto;
+    font-size: 18px;
+    color: darkgrey;
+}
+.postList .userId{
+    color: #babac1;
+    font-size: 20px;
+}
+.postList .forSearch{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.forSearch span{
+    color: #f5f5f5;
+    font-size: 18px;
+}
+.forSearch input{
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.forSearch .inputNumber{
+    width: 60px;
+    text-align: center;
+}
